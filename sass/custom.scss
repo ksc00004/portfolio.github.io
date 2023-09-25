@@ -1,0 +1,458 @@
+
+.container{
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+img{
+    width: 100%;
+}
+.bg-black{
+    background-color:black;
+}
+@font-face {
+    font-family: 'unfinished_screamregular';
+    src: url('unfinishedscreamregular-webfont.woff2') format('woff2'),
+         url('unfinishedscreamregular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.wrapper{
+    width: 100%;
+    height: 220px;
+    background-image:url("../images/homehead.jpg");
+    background-size: auto;
+    
+   
+}
+.wrapper-2{
+    background-image: linear-gradient(90deg,
+    #3B3B3B 0%,
+    #3B3B3B 20%,
+    #7F7A7A 20%,
+    #7F7A7A 40%,
+    #3B3B3B 40%,
+    #3B3B3B 60%,
+    #7F7A7A 60%,
+    #7F7A7A 80%,
+    #3B3B3B 80%,
+    #3B3B3B 100%);
+}
+
+
+.background-home{
+    
+    
+    
+    width: 100%;
+    height: 400px;
+    background-image: url('/Port-code/images/home-background.jpg');
+    background-size: auto;
+    
+   
+
+}
+nav ul{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-bottom:0;
+    grid-gap:1px;
+    
+
+}
+nav ul li{
+    list-style:none;
+    margin-left:0;
+    text-align: center;
+}
+#home-bold{
+  font-family: "alternate-gothic-atf", medium, sans-serif; 
+  font-size:1.5rem;
+  
+
+}
+nav a{
+    text-decoration:none;
+    color:black;
+    display:block;
+    
+ 
+    text-transform: uppercase;
+    font-family: "alternate-gothic-atf", medium, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.5rem;
+    text-align: left;
+    
+}
+
+nav ul li a:hover{
+    text-decoration:none;
+    color:red;
+    display:block;
+    
+ 
+    text-transform: uppercase;
+    font-family: "alternate-gothic-atf", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.5rem;
+    
+}
+#oddcenter{
+    text-align: center;
+}
+#kate-logo{
+    padding-top:100px;
+    float:right;
+}
+
+h1{
+    font-family: 'unfinished_screamregular';
+    src: url('unfinishedscreamregular-webfont.woff2') format('woff2'),
+         url('unfinishedscreamregular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-size:60pt;
+    text-transform: uppercase;  
+    line-height: 60pt;
+}
+h2{
+    font-family: "Alternate Gothic ATF",sans-serif;
+    font-size:2rem;
+    padding-top:10px;
+}
+.alt-h2{
+    font-family: 'unfinished_screamregular';
+    src: url('unfinishedscreamregular-webfont.woff2') format('woff2'),
+         url('unfinishedscreamregular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-size:60pt;
+    text-transform: uppercase;  
+    line-height: 60pt;
+}
+p{
+    font-family: "futura-pt", sans-serif;
+    font-size:1.25rem;
+}
+span{
+    font-weight: bold;
+}
+#avon-img{
+    background-color: black;
+    margin-top:40px;
+    padding-top:40px;
+}
+#avon-img img{
+    margin-bottom: 5px;
+}
+#avon-img p{
+    color:white;
+    font-family: "futura-pt",sans-serif,light;
+    font-size:25pt;
+    line-height: 25pt;
+    margin-top:10px;
+    margin-bottom: 20px;
+}
+#arts-crafts h1{
+    color:white;
+}
+#home-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top:10px; 
+}
+#footer{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top:10px;
+    
+}
+#color-icon{
+   background-color: #D5461D;
+}
+
+#bump-up{
+    margin-top:17px;
+}
+a {
+    color:black;
+        text-decoration:none; 
+        
+    }
+
+
+.black-bg{
+    color:white;
+}
+
+.black-bg:hover{
+    color:red;
+}
+a:hover {
+    color:red;
+        text-decoration:none; 
+        
+    }
+#button{
+    background-color:white;
+    border: none;
+    border-radius: 10px;
+    padding: 5px 10px;
+    padding-top:10px;
+    font-family: "Alternate Gothic ATF",sans-serif;
+    font-size:1.5rem;
+    font-weight: bold;
+    color:black;
+    
+}
+#button:hover{
+    background-color:red;
+}
+
+#bbutton{
+    background-color:black;
+    border: none;
+    border-radius: 10px;
+    padding: 5px 10px;
+    padding-top:10px;
+    font-family: "Alternate Gothic ATF",sans-serif;
+    font-size:1.5rem;
+    font-weight: bold;
+    color:black;
+}
+#bbutton:hover{
+    background-color:red;
+}
+.book{
+    position:relative;
+    height:1000px;
+}
+.paper{
+  position:absolute;  
+  height:100%
+  
+
+}
+.front{
+    position:absolute;
+    z-index:1;
+    backface-visibility:hidden;
+
+    transform-origin:left;
+}
+.back{
+    position:absolute;
+    height:100%;
+    z-index:0;
+    transform-origin:left;
+    transition:transform 0.5s;
+    
+}
+.back-content{
+    transform:rotateY('180deg')
+}
+#p1{
+    z-index:3;
+}
+
+#p2{
+    z-index: 2;
+}
+
+#p3{
+    z-index:1;
+}
+
+.flipped .front,
+.flipped .back{
+    transform:rotateY('-180deg')
+}
+#iframe{
+    width:100%;
+    height:550px;
+    overflow:hidden;
+ 
+}
+iframe{
+    box-sizing: inherit;
+    width:100%;
+    height:600px;
+  
+    
+}
+[style*="--aspect-ratio"] > :first-child {
+    width: 100%;
+  }
+  [style*="--aspect-ratio"] > img {  
+    height: auto;
+  } 
+  @supports (--custom:property) {
+    [style*="--aspect-ratio"] {
+      position: relative;
+    }
+    [style*="--aspect-ratio"]::before {
+      content: "";
+      display: block;
+      padding-bottom: calc(100% / (var(--aspect-ratio)));
+    }  
+    [style*="--aspect-ratio"] > :first-child {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+    }  
+  }
+
+button:hover{
+    background-color:red;
+}
+
+footer p{
+    font-family: "Alternate Gothic ATF",sans-serif;
+    font-weight: 100;
+    font-size:20px;
+    line-height:23px;
+    text-align: right;
+
+}
+#home-bold{
+    font-size:2rem;
+}
+
+@media (max-width:375px){
+    footer img{
+        scale:1.5;
+
+     
+}
+#hide-home{
+    
+    display:none;
+}
+p{font-size:1.25rem;}
+#katelogo{
+    margin-top:-60px; 
+ }
+ #hide-home-2{  h1{
+    font-size:2.5rem;
+}}
+}
+@media (min-width:375px) {
+    #hide-home{
+      
+        display:none;
+    }
+    #katelogo{
+        margin-top:-60px; 
+     }
+    h1{
+        font-size:50pt;
+        line-height: 50pt;
+        padding-top:10px;
+    }
+    p{
+        font-size:1.25rem;
+    }
+    #avon-img p{
+        font-size:1.75rem;
+    }
+ 
+    }
+    
+
+@media (min-width:576px) {
+    #hide-home{
+      
+        display:block;
+        padding-top:21px;
+       
+
+    }
+    #katelogo{
+        margin-top:-75px; 
+     }
+    #hide-home-2{
+        display:none;
+      
+    }
+    #avon h1{
+        font-size:50pt;
+        line-height: 50pt;
+        padding-top:125px;;
+    }
+ 
+    footer p{
+        font-size:25pt;
+        line-height:30pt;
+    }
+    p{font-size:1.25rem;}
+
+ 
+}
+@media (min-width:992px) {
+    #raise-btt{
+        margin-top:-30px;
+    }
+    #raise-bttfly{
+        margin-top:-160px;
+    }
+    #katelogo{
+        margin-top:-100px; 
+     }
+ #move-down{
+    margin-top:25px;
+ }
+    #hide-home{
+      
+        display:block;
+        padding-top:30px;
+
+        h1{
+            font-size: 3rem;;
+        }
+      
+    }
+   #avon h1{
+        font-size:60pt;
+        line-height: 60pt;
+        padding-top:140px;
+    }
+    h2{
+        font-size:25pt;
+    }
+    p{
+        font-size:1.25rem;
+        
+    }
+    #avon-img p{
+        font-size: 2rem;
+        line-height: 35pt;
+    }
+    footer p{
+        font-size:1.5rem;
+        line-height:40pt;
+    }
+    
+    #color-icon{
+        padding-top:7px;
+        padding-bottom:5px;
+    }
+    footer p{
+        font-size:1.5rem;
+    }
+    #profile{
+        margin-top: -61px;
+    }
+    #course-work{
+        margin-top:-270px;
+    }
+    #profile{
+        position: relative;
+        margin-top:25px;
+    
+    }
+}

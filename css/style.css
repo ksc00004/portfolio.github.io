@@ -1,0 +1,189 @@
+@font-face {
+    font-family: 'unfinished_screamregular';
+    src: url('unfinishedscreamregular-webfont.woff2') format('woff2'),
+         url('unfinishedscreamregular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.wrapper{
+    background-image:url("../images/home-background.jpg");
+    background-image: cover;
+background-position:top ;
+width:100%;
+
+
+    background-repeat:no-repeat;
+    background-size:100%;
+  
+    background-attachment:scroll;
+   
+    float:left;
+    height: 1800px;
+
+   
+}
+
+
+.wrapper-4{
+    background-image:url("../images/mountain.jpg");
+  
+color:black;
+    background-repeat:no-repeat;
+width: 100%;
+height: 100vh;
+background-size: auto;
+    
+   
+}
+nav ul{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-bottom:0;
+    grid-gap:1px;
+    
+
+}
+nav ul li{
+    list-style:none;
+    margin-left:0;
+    text-align: center;
+}
+nav a{
+    text-decoration:none;
+    color:black;
+    display:block;
+    
+ 
+    text-transform: uppercase;
+    font-family: "alternate-gothic-atf", medium, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 28pt;
+    text-align: left;
+    
+}
+
+nav a:hover{
+    text-decoration:none;
+    color:red;
+    display:block;
+    
+ 
+    text-transform: uppercase;
+    font-family: "alternate-gothic-atf", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 28pt;
+    
+}
+
+#kate-logo{
+    padding-top:100px;
+    float:right;
+}
+
+h1{
+    font-family: 'unfinished_screamregular';
+    src: url('unfinishedscreamregular-webfont.woff2') format('woff2'),
+         url('unfinishedscreamregular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-size:60pt;
+    text-transform: uppercase;  
+    line-height: 60pt;
+}
+h2{
+    font-family: "futura-pt", sans-serif, light;
+    font-size:20px;
+}
+p{
+    font-family: "futura-pt", sans-serif;
+    font-size: 1.2rem;
+}
+#avon-img{
+    background-color: black;
+ 
+}
+#avon-img img{
+    margin-bottom: 5px;
+}
+#avon-img p{
+    color:white;
+    font-family: "futura-pt",sans-serif,light;
+    font-size:25pt;
+    line-height: 25pt;
+
+}
+
+#color-icon{
+   background-color: #D5461D;
+}
+footer p{
+    font-family: "Alternate Gothic ATF",sans-serif;
+    font-weight: 100;
+    font-size:20px;
+    line-height:23px;
+    text-align: right;
+    padding-top:20px;;
+}
+@media (min-width:375px) {
+    nav a{
+        font-size:21px;
+    }
+    h1{
+        font-size:50pt;
+        line-height: 50pt;
+        padding-top:10px;
+    }
+}
+@media (min-width:576px) {
+    nav a{
+        font-size:21px;
+    }
+    h1{
+        font-size:50pt;
+        line-height: 50pt;
+        padding-top:10px;
+    }
+    p{
+        font-size:1.2rem;
+    }
+    footer p{
+        font-size:25pt;
+        line-height:30pt;
+    }
+}
+@media (min-width:992px) {
+    nav a{
+        font-size:21px;
+    }
+    h1{
+        font-size:60pt;
+        line-height: 60pt;
+        padding-top:300px;
+    }
+    h2{
+        font-size:25pt;
+    }
+    p{
+        font-size:50pt;
+        
+    }
+    #avon-img p{
+        font-size: 30pt;
+        line-height: 35pt;
+    }
+    footer p{
+        font-size:30pt;
+        line-height:40pt;
+    }
+ footer img{
+    scale:.75;
+ }
+    #color-icon{
+        padding-top:20px;
+        padding-bottom:20px;
+    }
+}
