@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Slow Down GIF on Hover</title>
+<style>
+  .gif-container {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+  }
+
+  .gif {
+    width: 100%;
+    height: auto;
+    transition: opacity 0.5s ease;
+  }
+
+  .gif.slow {
+    opacity: 0;
+  }
+</style>
+</head>
+<body>
+
+<div class="gif-container" onmouseenter="hoverGif()" onmouseleave="normalGif()">
+  <img src="images/phone1.gif" class="gif normal" alt="Your GIF">
+  <img src="images/phone1.gif" class="gif slow" alt="Your GIF">
+</div>
+
+<script>
+  function hoverGif() {
+    var normalGif = document.querySelector('.gif.normal');
+    var slowGif = document.querySelector('.gif.slow');
+    normalGif.style.opacity = '1';
+    slowGif.style.opacity = '1';
+  }
+
+  function normalGif() {
+    var normalGif = document.querySelector('.gif.normal');
+    var slowGif = document.querySelector('.gif.slow');
+    normalGif.style.opacity = '1';
+    slowGif.style.opacity = '1';
+  }
+</script>
+
+</body>
+</html>

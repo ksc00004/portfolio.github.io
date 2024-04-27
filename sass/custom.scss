@@ -18,7 +18,13 @@ img{
     font-style: normal;
 
 }
-
+#black-bg {
+    background-color: black;
+    color: white; /* Set text color to white for better contrast */
+  }
+  .navbar-brand img {
+    max-width: 100%;
+  }
 .wrapper{
     width: 100%;
     height: 220px;
@@ -26,6 +32,9 @@ img{
     background-size: auto;
     
    
+}
+img{
+    width:100%;
 }
 .wrapper-2{
     background-image: linear-gradient(90deg,
@@ -73,6 +82,13 @@ nav ul li{
   
 
 }
+.navbar-toggler {
+    padding: .25rem .75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: #807e7e;
+    border: 1px solid #4b0000;
+    border-radius: .25rem;}
 nav a{
     text-decoration:none;
     color:black;
@@ -124,6 +140,11 @@ h2{
     font-size:2rem;
     padding-top:10px;
 }
+h3{
+    font-family: Futura,sans-serif;
+    font-size:1.25rem;
+    padding-top:5px; 
+}
 .alt-h2{
     font-family: 'unfinished_screamregular';
     src: url('unfinishedscreamregular-webfont.woff2') format('woff2'),
@@ -136,7 +157,7 @@ h2{
 }
 p{
     font-family: "futura-pt", sans-serif;
-    font-size:1.25rem;
+    font-size:1.5rem;
 }
 span{
     font-weight: bold;
@@ -202,10 +223,12 @@ a:hover {
     border: none;
     border-radius: 10px;
     padding: 5px 10px;
-    padding-top:10px;
-    font-family: "Alternate Gothic ATF",sans-serif;
-    font-size:1.5rem;
+  
+    font-family: "Franklin Gothic Condensed", sans-serif;
     font-weight: bold;
+    font-size:1.5rem;
+ 
+    font-stretch: condensed;
     color:black;
     
 }
@@ -215,18 +238,21 @@ a:hover {
 
 #bbutton{
     background-color:black;
+    
+    
     border: none;
     border-radius: 10px;
     padding: 5px 10px;
-    padding-top:10px;
-    font-family: "Alternate Gothic ATF",sans-serif;
+   
+    font-family: "Franklin Gothic Condensed", sans-serif;
     font-size:1.5rem;
-    font-weight: bold;
-    color:black;
+  
+    color:white;
 }
 #bbutton:hover{
     background-color:red;
 }
+
 .book{
     position:relative;
     height:1000px;
@@ -354,9 +380,7 @@ p{font-size:1.25rem;}
         line-height: 50pt;
         padding-top:10px;
     }
-    p{
-        font-size:1.25rem;
-    }
+ 
     #avon-img p{
         font-size:1.75rem;
     }
@@ -389,7 +413,7 @@ p{font-size:1.25rem;}
         font-size:25pt;
         line-height:30pt;
     }
-    p{font-size:1.25rem;}
+ 
 
  
 }
@@ -424,10 +448,7 @@ p{font-size:1.25rem;}
     h2{
         font-size:25pt;
     }
-    p{
-        font-size:1.25rem;
-        
-    }
+
     #avon-img p{
         font-size: 2rem;
         line-height: 35pt;

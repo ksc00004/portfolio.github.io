@@ -6,6 +6,29 @@
     font-style: normal;
 
 }
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+
+
+.wrapper-4{
+    background-image:url("../images/mountain.jpg");
+  
+color:black;
+    background-repeat:no-repeat;
+width: 100%;
+height: 100vh;
+background-size: auto;
+    
+   
+}
+  
 
 .wrapper{
     background-image:url("../images/home-background.jpg");
@@ -25,26 +48,13 @@ width:100%;
    
 }
 
-
-.wrapper-4{
-    background-image:url("../images/mountain.jpg");
-  
-color:black;
-    background-repeat:no-repeat;
-width: 100%;
-height: 100vh;
-background-size: auto;
-    
-   
-}
-nav ul{
-    display:grid;
-    grid-template-columns: repeat(3, 1fr);
-    margin-bottom:0;
-    grid-gap:1px;
-    
-
-}
+.navbar-toggler {
+    padding: .25rem .75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: #a3a1a1;
+    border: 1px solid #4b0000;
+    border-radius: .25rem;}
 nav ul li{
     list-style:none;
     margin-left:0;
@@ -98,10 +108,7 @@ h2{
     font-family: "futura-pt", sans-serif, light;
     font-size:20px;
 }
-p{
-    font-family: "futura-pt", sans-serif;
-    font-size: 1.2rem;
-}
+
 #avon-img{
     background-color: black;
  
@@ -137,7 +144,7 @@ footer p{
         line-height: 50pt;
         padding-top:10px;
     }
-}
+   
 @media (min-width:576px) {
     nav a{
         font-size:21px;
@@ -147,15 +154,14 @@ footer p{
         line-height: 50pt;
         padding-top:10px;
     }
-    p{
-        font-size:1.2rem;
-    }
+
     footer p{
         font-size:25pt;
         line-height:30pt;
     }
 }
 @media (min-width:992px) {
+   
     nav a{
         font-size:21px;
     }
@@ -167,10 +173,7 @@ footer p{
     h2{
         font-size:25pt;
     }
-    p{
-        font-size:50pt;
-        
-    }
+ 
     #avon-img p{
         font-size: 30pt;
         line-height: 35pt;
